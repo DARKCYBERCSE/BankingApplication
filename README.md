@@ -52,7 +52,11 @@ The Banking Application is a web-based system designed to manage customer bank a
 
 ![Registartion](https://github.com/user-attachments/assets/ce816619-d918-47c4-84f2-9b652e112f91)
 
+#Datbase Connection
 
+![DataBaseAdmin](https://github.com/user-attachments/assets/8847c5aa-a095-40ca-b0c4-44c870445b0c)
 
+![DataBaseCustomer](https://github.com/user-attachments/assets/55316e65-e87f-4b9d-9b41-3b86483f9157)
 
+![DataBaseTransaction](https://github.com/user-attachments/assets/9530d994-c42e-49c5-93fa-55b427667bb8)
 
