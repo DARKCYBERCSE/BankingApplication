@@ -43,7 +43,62 @@ The Banking Application is a web-based system designed to manage customer bank a
 
 ###Project Structure:
 
-brew install --cask banking-4
+```sql
+BankingApplication/
+├── src/
+│   ├── com/
+│   │   └── banking/
+│   │       ├── admin/
+│   │       │   ├── AdminLoginServlet.java
+│   │       │   ├── RegisterCustomerServlet.java
+│   │       │   ├── ManageCustomerServlet.java
+│   │       ├── customer/
+│   │       │   ├── CustomerLoginServlet.java
+│   │       │   ├── SetupPasswordServlet.java
+│   │       │   ├── CustomerDashboardServlet.java
+│   │       │   ├── ViewTransactionsServlet.java
+│   │       │   ├── DepositServlet.java
+│   │       │   ├── WithdrawServlet.java
+│   │       │   ├── CloseAccountServlet.java
+│   │       │   ├── DownloadPDFServlet.java
+│   │       ├── db/
+│   │       │   ├── DBConnection.java
+│   │       │   ├── AdminDAO.java
+│   │       │   ├── CustomerDAO.java
+│   │       │   ├── TransactionDAO.java
+│   │       ├── model/
+│   │       │   ├── Admin.java
+│   │       │   ├── Customer.java
+│   │       │   ├── Transaction.java
+│   │       ├── util/
+│   │           ├── PasswordUtil.java
+│   │           ├── PDFGenerator.java
+├── WebContent/
+│   ├── META-INF/
+│   │   └── context.xml
+│   ├── WEB-INF/
+│   │   ├── lib/
+│   │   ├── web.xml
+│   ├── css/
+│   │   └── styles.css
+│   ├── admin/
+│   │   ├── admin_login.jsp
+│   │   ├── register_customer.jsp
+│   │   ├── manage_customer.jsp
+│   ├── customer/
+│   │   ├── customer_login.jsp
+│   │   ├── setup_password.jsp
+│   │   ├── customer_dashboard.jsp
+│   │   ├── view_transactions.jsp
+│   │   ├── deposit.jsp
+│   │   ├── withdraw.jsp
+│   │   ├── close_account.jsp
+│   │   ├── download_pdf.jsp
+│   ├── index.jsp
+├── .classpath
+├── .project
+└── README.md
+
 
 
 ###Output
