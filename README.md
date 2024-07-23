@@ -54,18 +54,3 @@ The Banking Application is a web-based system designed to manage customer bank a
        account_no VARCHAR(10) NOT NULL,
        password VARCHAR(255) NOT NULL
    );
-   ```sql
-   CREATE TABLE Admin (
-    admin_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL
-);
-   ```sql
-CREATE TABLE Transaction (
-    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
-    account_no VARCHAR(20) NOT NULL,
-    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    transaction_type ENUM('Deposit', 'Withdraw') NOT NULL,
-    amount DECIMAL(15, 2) NOT NULL,
-    FOREIGN KEY (account_no) REFERENCES Customer(account_no)
-);
