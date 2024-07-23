@@ -41,6 +41,20 @@ The Banking Application is a web-based system designed to manage customer bank a
 3. Execute the following SQL script to create the necessary tables:
 
 
+###OUTPUT
+![Home Page](https://github.com/user-attachments/assets/c0af1ad9-24a7-4692-867b-54149447c78c)
+![Admin Home](https://github.com/user-attachments/assets/1df031ba-d7d0-452c-9140-bfdb87246046)
+![Admin Login](https://github.com/user-attachments/assets/6e5e1947-c218-4f3f-b203-cab74331eeef)
+![Cutomer Register](https://github.com/user-attachments/assets/6a52692f-1caa-4a3b-8bd0-420032587e86)
+![Registartion](https://github.com/user-attachments/assets/7fd5e30d-1416-4236-b0a8-7501ab7ebe37)
+
+#DATABASE 
+
+![DataBaseAdmin](https://github.com/user-attachments/assets/1c06c379-d83f-4f85-b83d-83d652510a54)
+![DataBaseCustomer](https://github.com/user-attachments/assets/71534310-3e7b-4382-ba72-f9daef6ed74e)
+![DataBaseTransaction](https://github.com/user-attachments/assets/a78bf030-bdd4-4943-a593-c692dc36b182)
+
+
 ###Project Structure:
 
 ```sql
@@ -99,18 +113,6 @@ BankingApplication/
 ├── .project
 └── README.md
 
-
-
-
-
-
-
-
-
-###OUTPUT
-
-
-![DataBaseAdmin](https://github.com/user-attachments/assets/310ca54d-53cf-4aae-a8a5-bf8b8d96874a)
 
 
 
