@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <!-- Database Connection Pool Configuration -->
+    <Resource name="jdbc/BankingDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="10000"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/banking_db"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              removeAbandonedOnBorrow="true"
+              removeAbandonedTimeout="60"
+              logAbandoned="true"/>
+
+</Context>
