@@ -54,3 +54,4 @@ The Banking Application is a web-based system designed to manage customer bank a
        account_no VARCHAR(10) NOT NULL,
        password VARCHAR(255) NOT NULL
    );
+
