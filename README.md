@@ -41,32 +41,4 @@ The Banking Application is a web-based system designed to manage customer bank a
 2. Create a new database named `banking`.
 3. Execute the following SQL script to create the necessary tables:
 
-   ```sql
-  CREATE TABLE Admin (
-    admin_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL
-);
-CREATE TABLE Customer (
-    customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    full_name VARCHAR(100) NOT NULL,
-    address VARCHAR(255),
-    mobile_no VARCHAR(15),
-    email VARCHAR(100) NOT NULL UNIQUE,
-    account_type ENUM('Saving', 'Current') NOT NULL,
-    initial_balance DECIMAL(15, 2) NOT NULL,
-    dob DATE,
-    id_proof VARCHAR(50),
-    account_no VARCHAR(20) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    balance DECIMAL(15, 2) NOT NULL
-);
-CREATE TABLE Transaction (
-    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
-    account_no VARCHAR(20) NOT NULL,
-    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    transaction_type ENUM('Deposit', 'Withdraw') NOT NULL,
-    amount DECIMAL(15, 2) NOT NULL,
-    FOREIGN KEY (account_no) REFERENCES Customer(account_no)
-);
-
+   ```
