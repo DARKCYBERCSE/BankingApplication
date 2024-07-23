@@ -99,3 +99,55 @@ BankingApplication/
 ├── .project
 └── README.md
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###Output
+
+![Home Page](https://github.com/user-attachments/assets/be8c0bab-ef6f-4c04-98e3-1c3b01adc3fe)
+
+![Admin Login](https://github.com/user-attachments/assets/bcd62156-7ef0-4676-8504-aad133973492)
+
+![Admin Home](https://github.com/user-attachments/assets/2a997a08-4c6b-4a94-a230-4885898bfe47)
+
+![Cutomer Register](https://github.com/user-attachments/assets/3d60fd13-ad52-45be-88e4-caea5e5e2592)
+
+![Registartion](https://github.com/user-attachments/assets/ce816619-d918-47c4-84f2-9b652e112f91)
+
+#Datbase Connection
+
+![DataBaseAdmin](https://github.com/user-attachments/assets/8847c5aa-a095-40ca-b0c4-44c870445b0c)
+
+![DataBaseCustomer](https://github.com/user-attachments/assets/55316e65-e87f-4b9d-9b41-3b86483f9157)
+
+![DataBaseTransaction](https://github.com/user-attachments/assets/9530d994-c42e-49c5-93fa-55b427667bb8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
